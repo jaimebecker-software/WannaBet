@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AUs-5r-2D5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="j1b-EZ-xGQ">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="AUs-5r-2D5" sceneMemberID="viewController">
+                    <stackView key="view" opaque="NO" contentMode="scaleToFill" axis="vertical" id="t1w-UP-InN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wanna_bet_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Qyz-gc-x7b">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pEF-Ej-hW9"/>
+                        <color key="backgroundColor" red="0.23846778269999999" green="0.4388593435" blue="0.4588291645" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </stackView>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="LU1-4W-KrQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vat-nS-xnc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720" y="831"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wanna_bet_logo" width="341" height="170.5"/>
+    </resources>
+</document>
